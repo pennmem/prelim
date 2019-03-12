@@ -35,7 +35,7 @@ public class EditableExperiment : MonoBehaviour
     
 	void Start()
 	{
-        UnityEPL.SetExperimentName("FR1_scalp");
+        UnityEPL.SetExperimentName("prelim");
         LoadWords();
         LoadNumberingPool();
         StartCoroutine(RunExperiment());
