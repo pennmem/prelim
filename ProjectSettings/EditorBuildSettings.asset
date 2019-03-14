@@ -5,6 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/vocalization_control.unity
     guid: dcbe6f680632241e6a8dd6fd7c73c8ba
+  m_configObjects: {}

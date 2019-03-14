@@ -25,9 +25,9 @@ public class EditableExperiment : MonoBehaviour
     private int lengthOfList = 15;
 
     private const string FIRST_INSTRUCTIONS_MESSAGE = 
-"\n\n\nWe will now review the basics of the study, and the experimenter will answer any questions that you have.\n(Instruction place holder)\n1) You will see lists of words.\n2) Words will come onscreen one at a time.\n3) When a row of asterists appera on the screen, please start recall the words.\n\n\n";
+"\n\n\nWe will now review the basics of the study, and the experimenter will answer any questions that you have.\n\n\n1) In this study, lists of words will appear on the computer screen. \n\n2) After the last word in each list, you will see a row of asterisks (*******) flash on the screen and you will hear a tone. At this time, say as many words as you can remember from the list, IN ANY ORDER.\n\n3) Speak loudly and clearly. You will have a fixed amount of time in which to recall the list. Please try hard throughout the recall period, as you may recall some words even when you feel you have exhausted your memory. \n\n\n";
     private const string SECOND_INSTRUCTIONS_MESSAGE =
-        "\n\n\n5) It is very important for you to avoid all unnecessary motion while engaged in the study. \n6) Please try to avoid blinking while each word remains on the screen. \n\n\nYou are now ready to begin the study! \n\nIf you have any remaining questions, please ask the experimenter now. Otherwise, press RETURN to continue.\n\n\n";
+        "\n\n\n4) It is very important for you to avoid all unnecessary motion while engaged in the study. \n\n5) Please try to avoid blinking while each word remains on the screen. \n\n\nYou are now ready to begin the study! \n\nIf you have any remaining questions, please ask the experimenter now. Otherwise, press RETURN to continue.\n\n\n";
     private const string BREAK_MESSAGE =
 "\n\n\nWe will now take some time\nto readjust the electrodes.\nWhen it is time to continue,\npress SPACE and RETURN.\n\n\n";
     private const string EXPERIMENTER_MESSAGE =
@@ -100,7 +100,7 @@ public class EditableExperiment : MonoBehaviour
         yield return PressAnyKey("Researcher:\nPlease confirm that the \nimpedance window is closed\nand that sync pulses are showing", new KeyCode[] { KeyCode.Y }, textDisplayer);
         yield return PressAnyKey("Researcher:\nPlease begin the EEG recording now\nand confirm that it is running.", new KeyCode[] { KeyCode.R }, textDisplayer);
 
-        // yield return EEGVerificationScript(UnityEPL.GetExperimentName(), UnityEPL.GetParticipants()[0], UnityEPL.GetSessionNumber());
+        yield return EEGVerificationScript(UnityEPL.GetExperimentName(), UnityEPL.GetParticipants()[0], UnityEPL.GetSessionNumber());
 
         scriptedEventReporter.ReportScriptedEvent("microphone test begin", new Dictionary<string, object>());
         yield return DoMicrophoneTest();
@@ -292,6 +292,13 @@ public class EditableExperiment : MonoBehaviour
         soundRecorder.StartRecording();
         scriptedEventReporter.ReportScriptedEvent("recall start", new Dictionary<string, object>());
         textDisplayer.DisplayText("display recall text", "*******");
+
+        //begin of recall beep
+        scriptedEventReporter.ReportScriptedEvent("begin beep start", new Dictionary<string, object>());
+        highBeep.Play();
+        yield return new WaitForSeconds(highBeep.clip.length);
+        scriptedEventReporter.ReportScriptedEvent("begin beep stop", new Dictionary<string, object>());
+
         yield return new WaitForSeconds(RECALL_LENGTH);
         textDisplayer.ClearText();
         scriptedEventReporter.ReportScriptedEvent("recall stop", new Dictionary<string, object>());
