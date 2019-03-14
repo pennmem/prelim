@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EditableExperiment : MonoBehaviour
 {
-	public TextDisplayer textDisplayer;
+    public TextDisplayer textDisplayer;
     public TextDisplayer fullscreenTextDisplayer;
     public UnityEngine.UI.InputField inputField;
     public ScriptedEventReporter scriptedEventReporter;
@@ -33,13 +33,13 @@ public class EditableExperiment : MonoBehaviour
     private const string EXPERIMENTER_MESSAGE =
 "Researcher: Please confirm that the impedance window is closed and that sync pulses are showing.";
     
-	void Start()
-	{
+    void Start()
+    {
         UnityEPL.SetExperimentName("prelim");
         LoadWords();
         LoadNumberingPool();
         StartCoroutine(RunExperiment());
-	}
+    }
 
     private void LoadNumberingPool()
     {
@@ -116,7 +116,7 @@ public class EditableExperiment : MonoBehaviour
         {
             if (i!=0) 
             {
-                yield return PressAnyKey("Press SPACE to continue.", new KeyCode[] { KeyCode.Space }, fullscreenTextDisplayer);
+                yield return PressAnyKey("Press SPACE to continue.", new KeyCode[] { KeyCode.Space }, textDisplayer);
             }
             textDisplayer.DisplayText("list count", "List " + (i+1));
             yield return new WaitForSeconds(3f);
@@ -295,8 +295,8 @@ public class EditableExperiment : MonoBehaviour
 
         //begin of recall beep
         scriptedEventReporter.ReportScriptedEvent("begin beep start", new Dictionary<string, object>());
-        highBeep.Play();
-        yield return new WaitForSeconds(highBeep.clip.length);
+        lowBeep.Play();
+        yield return new WaitForSeconds(lowBeep.clip.length);
         scriptedEventReporter.ReportScriptedEvent("begin beep stop", new Dictionary<string, object>());
 
         yield return new WaitForSeconds(RECALL_LENGTH);
@@ -313,8 +313,8 @@ public class EditableExperiment : MonoBehaviour
 
         //end of recall beep
         scriptedEventReporter.ReportScriptedEvent("end beep start", new Dictionary<string, object>());
-        lowBeep.Play();
-        yield return new WaitForSeconds(lowBeep.clip.length);
+        highBeep.Play();
+        yield return new WaitForSeconds(highBeep.clip.length);
         scriptedEventReporter.ReportScriptedEvent("end beep stop", new Dictionary<string, object>());
 
     }

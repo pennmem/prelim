@@ -1,6 +1,6 @@
 OSXStandalone
 PlayerPath?
-/Users/liyuxuan/git/prelim/prelim-V1.0.app
+/Users/liyuxuan/git/prelim/prelim-1.0.app
 SceneListBegin?
 Assets/vocalization_control.unity
 SceneListEnd?
