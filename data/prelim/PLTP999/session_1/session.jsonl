@@ -1,0 +1,15 @@
+{"type":"press any key prompt","data":{"displayed text":"PLTP999
+session 1","participant 1":"PLTP999","experiment":"prelim"},"time":1552597202584.69}
+{"type":"text display cleared","data":{"participant 1":"PLTP999","experiment":"prelim"},"time":1552597202967.45}
+{"type":"press any key prompt","data":{"displayed text":"Researcher:
+Please confirm that the 
+impedance window is closed
+and that sync pulses are showing","participant 1":"PLTP999","experiment":"prelim"},"time":1552597202984.09}
+{"type":"text display cleared","data":{"participant 1":"PLTP999","experiment":"prelim"},"time":1552597203250.15}
+{"type":"press any key prompt","data":{"displayed text":"Researcher:
+Please begin the EEG recording now
+and confirm that it is running.","participant 1":"PLTP999","experiment":"prelim"},"time":1552597203267.46}
+{"type":"text display cleared","data":{"participant 1":"PLTP999","experiment":"prelim"},"time":1552597203500.98}
+{"type":"press any key prompt","data":{"displayed text":"I couldn't find /User/exp/bin/check_eegfile.py .  Please make sure it exists and then press RETURN to try again.","participant 1":"PLTP999","experiment":"prelim"},"time":1552597203517.74}
+{"type":"text display cleared","data":{"participant 1":"PLTP999","experiment":"prelim"},"time":1552597204884.16}
+{"type":"press any key prompt","data":{"displayed text":"I couldn't find /User/exp/bin/check_eegfile.py .  Please make sure it exists and then press RETURN to try again.","participant 1":"PLTP999","experiment":"prelim"},"time":1552597204900.93}

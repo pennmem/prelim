@@ -1,0 +1,137 @@
+{"type":"press any key prompt","data":{"displayed text":"PLTP999
+session 2","participant 1":"PLTP999","experiment":"prelim"},"time":1552597242157.56}
+{"type":"text display cleared","data":{"participant 1":"PLTP999","experiment":"prelim"},"time":1552597242540.49}
+{"type":"press any key prompt","data":{"displayed text":"Researcher:
+Please confirm that the 
+impedance window is closed
+and that sync pulses are showing","participant 1":"PLTP999","experiment":"prelim"},"time":1552597242556.68}
+{"type":"text display cleared","data":{"participant 1":"PLTP999","experiment":"prelim"},"time":1552597242790.18}
+{"type":"press any key prompt","data":{"displayed text":"Researcher:
+Please begin the EEG recording now
+and confirm that it is running.","participant 1":"PLTP999","experiment":"prelim"},"time":1552597242807.6}
+{"type":"text display cleared","data":{"participant 1":"PLTP999","experiment":"prelim"},"time":1552597242957.85}
+{"type":"microphone test begin","data":{"participant 1":"PLTP999","experiment":"prelim"},"time":1552597242957.85}
+{"type":"press any key prompt","data":{"displayed text":"Press the spacebar to record a sound after the beep.","participant 1":"PLTP999","experiment":"prelim"},"time":1552597242990.33}
+{"type":"text display cleared","data":{"participant 1":"PLTP999","experiment":"prelim"},"time":1552597243607.96}
+{"type":"microphone test recording","data":{"displayed text":"Recording...","participant 1":"PLTP999","experiment":"prelim"},"time":1552597243607.96}
+{"type":"text color changed","data":{"new color":"RGBA(1.000, 0.000, 0.000, 1.000)","participant 1":"PLTP999","experiment":"prelim"},"time":1552597243607.96}
+{"type":"text display cleared","data":{"participant 1":"PLTP999","experiment":"prelim"},"time":1552597249123.29}
+{"type":"microphone test playing","data":{"displayed text":"Playing...","participant 1":"PLTP999","experiment":"prelim"},"time":1552597250140.03}
+{"type":"text color changed","data":{"new color":"RGBA(0.000, 1.000, 0.000, 1.000)","participant 1":"PLTP999","experiment":"prelim"},"time":1552597250140.03}
+{"type":"text display cleared","data":{"participant 1":"PLTP999","experiment":"prelim"},"time":1552597255140.74}
+{"type":"restore original text color","data":{"participant 1":"PLTP999","experiment":"prelim"},"time":1552597255140.74}
+{"type":"microphone test confirmation","data":{"displayed text":"Did you hear the recording? 
+(Y=Continue / N=Try Again / C=Cancel).","participant 1":"PLTP999","experiment":"prelim"},"time":1552597255140.74}
+{"type":"text display cleared","data":{"participant 1":"PLTP999","experiment":"prelim"},"time":1552597256890.71}
+{"type":"microphone test end","data":{"participant 1":"PLTP999","experiment":"prelim"},"time":1552597256890.71}
+{"type":"press any key prompt","data":{"displayed text":"
+
+
+We will now review the basics of the study, and the experimenter will answer any questions that you have.
+
+
+1) In this study, lists of words will appear on the computer screen. 
+
+2) After the last word in each list, you will see a row of asterisks (*******) flash on the screen and you will hear a tone. At this time, say as many words as you can remember from the list, IN ANY ORDER.
+
+3) Speak loudly and clearly. You will have a fixed amount of time in which to recall the list. Please try hard throughout the recall period, as you may recall some words even when you feel you have exhausted your memory. 
+
+
+","participant 1":"PLTP999","experiment":"prelim"},"time":1552597256907.38}
+{"type":"text display cleared","data":{"participant 1":"PLTP999","experiment":"prelim"},"time":1552597258107.11}
+{"type":"press any key prompt","data":{"displayed text":"
+
+
+4) It is very important for you to avoid all unnecessary motion while engaged in the study. 
+
+5) Please try to avoid blinking while each word remains on the screen. 
+
+
+You are now ready to begin the study! 
+
+If you have any remaining questions, please ask the experimenter now. Otherwise, press RETURN to continue.
+
+
+","participant 1":"PLTP999","experiment":"prelim"},"time":1552597258123.92}
+{"type":"text display cleared","data":{"participant 1":"PLTP999","experiment":"prelim"},"time":1552597258323.66}
+{"type":"list count","data":{"displayed text":"List 1","participant 1":"PLTP999","experiment":"prelim"},"time":1552597258323.66}
+{"type":"text display cleared","data":{"participant 1":"PLTP999","experiment":"prelim"},"time":1552597261339.84}
+{"type":"countdown","data":{"displayed text":5,"participant 1":"PLTP999","experiment":"prelim"},"time":1552597261339.84}
+{"type":"text display cleared","data":{"participant 1":"PLTP999","experiment":"prelim"},"time":1552597262357.41}
+{"type":"countdown","data":{"displayed text":4,"participant 1":"PLTP999","experiment":"prelim"},"time":1552597262357.41}
+{"type":"text display cleared","data":{"participant 1":"PLTP999","experiment":"prelim"},"time":1552597263373.9}
+{"type":"countdown","data":{"displayed text":3,"participant 1":"PLTP999","experiment":"prelim"},"time":1552597263373.9}
+{"type":"text display cleared","data":{"participant 1":"PLTP999","experiment":"prelim"},"time":1552597264390.21}
+{"type":"countdown","data":{"displayed text":2,"participant 1":"PLTP999","experiment":"prelim"},"time":1552597264390.21}
+{"type":"text display cleared","data":{"participant 1":"PLTP999","experiment":"prelim"},"time":1552597265390.5}
+{"type":"countdown","data":{"displayed text":1,"participant 1":"PLTP999","experiment":"prelim"},"time":1552597265390.5}
+{"type":"text display cleared","data":{"participant 1":"PLTP999","experiment":"prelim"},"time":1552597266406.92}
+{"type":"stimulus","data":{"word":"STRING","index":0,"ltp word number":259,"participant 1":"PLTP999","experiment":"prelim"},"time":1552597267356.09}
+{"type":"stimulus display","data":{"displayed text":"STRING","participant 1":"PLTP999","experiment":"prelim"},"time":1552597267356.09}
+{"type":"stimulus cleared","data":{"word":"STRING","index":0,"participant 1":"PLTP999","experiment":"prelim"},"time":1552597268956.81}
+{"type":"text display cleared","data":{"participant 1":"PLTP999","experiment":"prelim"},"time":1552597268956.81}
+{"type":"stimulus","data":{"word":"CAGE","index":0,"ltp word number":39,"participant 1":"PLTP999","experiment":"prelim"},"time":1552597270140.42}
+{"type":"stimulus display","data":{"displayed text":"CAGE","participant 1":"PLTP999","experiment":"prelim"},"time":1552597270140.42}
+{"type":"stimulus cleared","data":{"word":"CAGE","index":0,"participant 1":"PLTP999","experiment":"prelim"},"time":1552597271756.19}
+{"type":"text display cleared","data":{"participant 1":"PLTP999","experiment":"prelim"},"time":1552597271756.19}
+{"type":"stimulus","data":{"word":"TOY","index":0,"ltp word number":277,"participant 1":"PLTP999","experiment":"prelim"},"time":1552597272856.31}
+{"type":"stimulus display","data":{"displayed text":"TOY","participant 1":"PLTP999","experiment":"prelim"},"time":1552597272856.31}
+{"type":"stimulus cleared","data":{"word":"TOY","index":0,"participant 1":"PLTP999","experiment":"prelim"},"time":1552597274456.91}
+{"type":"text display cleared","data":{"participant 1":"PLTP999","experiment":"prelim"},"time":1552597274456.91}
+{"type":"stimulus","data":{"word":"TRASH","index":0,"ltp word number":279,"participant 1":"PLTP999","experiment":"prelim"},"time":1552597275573.53}
+{"type":"stimulus display","data":{"displayed text":"TRASH","participant 1":"PLTP999","experiment":"prelim"},"time":1552597275573.53}
+{"type":"stimulus cleared","data":{"word":"TRASH","index":0,"participant 1":"PLTP999","experiment":"prelim"},"time":1552597277173.62}
+{"type":"text display cleared","data":{"participant 1":"PLTP999","experiment":"prelim"},"time":1552597277173.62}
+{"type":"stimulus","data":{"word":"ROAD","index":0,"ltp word number":200,"participant 1":"PLTP999","experiment":"prelim"},"time":1552597278339.33}
+{"type":"stimulus display","data":{"displayed text":"ROAD","participant 1":"PLTP999","experiment":"prelim"},"time":1552597278339.33}
+{"type":"stimulus cleared","data":{"word":"ROAD","index":0,"participant 1":"PLTP999","experiment":"prelim"},"time":1552597279939.66}
+{"type":"text display cleared","data":{"participant 1":"PLTP999","experiment":"prelim"},"time":1552597279939.66}
+{"type":"stimulus","data":{"word":"PIE","index":0,"ltp word number":182,"participant 1":"PLTP999","experiment":"prelim"},"time":1552597280939.83}
+{"type":"stimulus display","data":{"displayed text":"PIE","participant 1":"PLTP999","experiment":"prelim"},"time":1552597280939.83}
+{"type":"stimulus cleared","data":{"word":"PIE","index":0,"participant 1":"PLTP999","experiment":"prelim"},"time":1552597282540.08}
+{"type":"text display cleared","data":{"participant 1":"PLTP999","experiment":"prelim"},"time":1552597282540.08}
+{"type":"stimulus","data":{"word":"HOOK","index":0,"ltp word number":126,"participant 1":"PLTP999","experiment":"prelim"},"time":1552597283405.86}
+{"type":"stimulus display","data":{"displayed text":"HOOK","participant 1":"PLTP999","experiment":"prelim"},"time":1552597283405.86}
+{"type":"stimulus cleared","data":{"word":"HOOK","index":0,"participant 1":"PLTP999","experiment":"prelim"},"time":1552597285006.37}
+{"type":"text display cleared","data":{"participant 1":"PLTP999","experiment":"prelim"},"time":1552597285006.37}
+{"type":"stimulus","data":{"word":"ANT","index":0,"ltp word number":1,"participant 1":"PLTP999","experiment":"prelim"},"time":1552597285989.33}
+{"type":"stimulus display","data":{"displayed text":"ANT","participant 1":"PLTP999","experiment":"prelim"},"time":1552597285989.33}
+{"type":"stimulus cleared","data":{"word":"ANT","index":0,"participant 1":"PLTP999","experiment":"prelim"},"time":1552597287590.01}
+{"type":"text display cleared","data":{"participant 1":"PLTP999","experiment":"prelim"},"time":1552597287590.01}
+{"type":"stimulus","data":{"word":"HOLE","index":0,"ltp word number":124,"participant 1":"PLTP999","experiment":"prelim"},"time":1552597288755.72}
+{"type":"stimulus display","data":{"displayed text":"HOLE","participant 1":"PLTP999","experiment":"prelim"},"time":1552597288755.72}
+{"type":"stimulus cleared","data":{"word":"HOLE","index":0,"participant 1":"PLTP999","experiment":"prelim"},"time":1552597290355.99}
+{"type":"text display cleared","data":{"participant 1":"PLTP999","experiment":"prelim"},"time":1552597290355.99}
+{"type":"stimulus","data":{"word":"SEED","index":0,"ltp word number":214,"participant 1":"PLTP999","experiment":"prelim"},"time":1552597291522.53}
+{"type":"stimulus display","data":{"displayed text":"SEED","participant 1":"PLTP999","experiment":"prelim"},"time":1552597291522.53}
+{"type":"stimulus cleared","data":{"word":"SEED","index":0,"participant 1":"PLTP999","experiment":"prelim"},"time":1552597293122.68}
+{"type":"text display cleared","data":{"participant 1":"PLTP999","experiment":"prelim"},"time":1552597293122.68}
+{"type":"stimulus","data":{"word":"LEG","index":0,"ltp word number":147,"participant 1":"PLTP999","experiment":"prelim"},"time":1552597294189.3}
+{"type":"stimulus display","data":{"displayed text":"LEG","participant 1":"PLTP999","experiment":"prelim"},"time":1552597294189.3}
+{"type":"stimulus cleared","data":{"word":"LEG","index":0,"participant 1":"PLTP999","experiment":"prelim"},"time":1552597295789.75}
+{"type":"text display cleared","data":{"participant 1":"PLTP999","experiment":"prelim"},"time":1552597295789.75}
+{"type":"stimulus","data":{"word":"SAIL","index":0,"ltp word number":208,"participant 1":"PLTP999","experiment":"prelim"},"time":1552597296772.24}
+{"type":"stimulus display","data":{"displayed text":"SAIL","participant 1":"PLTP999","experiment":"prelim"},"time":1552597296772.24}
+{"type":"stimulus cleared","data":{"word":"SAIL","index":0,"participant 1":"PLTP999","experiment":"prelim"},"time":1552597298373.21}
+{"type":"text display cleared","data":{"participant 1":"PLTP999","experiment":"prelim"},"time":1552597298373.21}
+{"type":"stimulus","data":{"word":"BEAK","index":0,"ltp word number":15,"participant 1":"PLTP999","experiment":"prelim"},"time":1552597299239.86}
+{"type":"stimulus display","data":{"displayed text":"BEAK","participant 1":"PLTP999","experiment":"prelim"},"time":1552597299239.86}
+{"type":"stimulus cleared","data":{"word":"BEAK","index":0,"participant 1":"PLTP999","experiment":"prelim"},"time":1552597300856.62}
+{"type":"text display cleared","data":{"participant 1":"PLTP999","experiment":"prelim"},"time":1552597300856.62}
+{"type":"stimulus","data":{"word":"BAG","index":0,"ltp word number":7,"participant 1":"PLTP999","experiment":"prelim"},"time":1552597301972.45}
+{"type":"stimulus display","data":{"displayed text":"BAG","participant 1":"PLTP999","experiment":"prelim"},"time":1552597301972.45}
+{"type":"stimulus cleared","data":{"word":"BAG","index":0,"participant 1":"PLTP999","experiment":"prelim"},"time":1552597303589.37}
+{"type":"text display cleared","data":{"participant 1":"PLTP999","experiment":"prelim"},"time":1552597303589.37}
+{"type":"stimulus","data":{"word":"CLOCK","index":0,"ltp word number":56,"participant 1":"PLTP999","experiment":"prelim"},"time":1552597304506.05}
+{"type":"stimulus display","data":{"displayed text":"CLOCK","participant 1":"PLTP999","experiment":"prelim"},"time":1552597304506.05}
+{"type":"stimulus cleared","data":{"word":"CLOCK","index":0,"participant 1":"PLTP999","experiment":"prelim"},"time":1552597306122.29}
+{"type":"text display cleared","data":{"participant 1":"PLTP999","experiment":"prelim"},"time":1552597306122.29}
+{"type":"recall start","data":{"participant 1":"PLTP999","experiment":"prelim"},"time":1552597307222.52}
+{"type":"display recall text","data":{"displayed text":"*******","participant 1":"PLTP999","experiment":"prelim"},"time":1552597307222.52}
+{"type":"begin beep start","data":{"participant 1":"PLTP999","experiment":"prelim"},"time":1552597307222.52}
+{"type":"begin beep stop","data":{"participant 1":"PLTP999","experiment":"prelim"},"time":1552597307738.9}
+{"type":"text display cleared","data":{"participant 1":"PLTP999","experiment":"prelim"},"time":1552597367754.22}
+{"type":"recall stop","data":{"participant 1":"PLTP999","experiment":"prelim"},"time":1552597367754.22}
+{"type":"end beep start","data":{"participant 1":"PLTP999","experiment":"prelim"},"time":1552597367754.22}
+{"type":"end beep stop","data":{"participant 1":"PLTP999","experiment":"prelim"},"time":1552597368421.63}
+{"type":"press any key prompt","data":{"displayed text":"Press SPACE to continue.","participant 1":"PLTP999","experiment":"prelim"},"time":1552597368438.12}

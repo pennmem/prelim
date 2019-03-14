@@ -1,0 +1,37 @@
+{"type":"press any key prompt","data":{"displayed text":"PLTP999
+session 0","participant 1":"PLTP999","experiment":"prelim"},"time":1552596922661.94}
+{"type":"text display cleared","data":{"participant 1":"PLTP999","experiment":"prelim"},"time":1552596923278.53}
+{"type":"press any key prompt","data":{"displayed text":"Researcher:
+Please confirm that the 
+impedance window is closed
+and that sync pulses are showing","participant 1":"PLTP999","experiment":"prelim"},"time":1552596923295.37}
+{"type":"text display cleared","data":{"participant 1":"PLTP999","experiment":"prelim"},"time":1552596923612.03}
+{"type":"press any key prompt","data":{"displayed text":"Researcher:
+Please begin the EEG recording now
+and confirm that it is running.","participant 1":"PLTP999","experiment":"prelim"},"time":1552596923628.97}
+{"type":"text display cleared","data":{"participant 1":"PLTP999","experiment":"prelim"},"time":1552596923795.33}
+{"type":"microphone test begin","data":{"participant 1":"PLTP999","experiment":"prelim"},"time":1552596923795.33}
+{"type":"press any key prompt","data":{"displayed text":"Press the spacebar to record a sound after the beep.","participant 1":"PLTP999","experiment":"prelim"},"time":1552596923828.57}
+{"type":"text display cleared","data":{"participant 1":"PLTP999","experiment":"prelim"},"time":1552596924928.6}
+{"type":"microphone test recording","data":{"displayed text":"Recording...","participant 1":"PLTP999","experiment":"prelim"},"time":1552596924928.6}
+{"type":"text color changed","data":{"new color":"RGBA(1.000, 0.000, 0.000, 1.000)","participant 1":"PLTP999","experiment":"prelim"},"time":1552596924928.6}
+{"type":"text display cleared","data":{"participant 1":"PLTP999","experiment":"prelim"},"time":1552596930445.32}
+{"type":"microphone test playing","data":{"displayed text":"Playing...","participant 1":"PLTP999","experiment":"prelim"},"time":1552596931445.77}
+{"type":"text color changed","data":{"new color":"RGBA(0.000, 1.000, 0.000, 1.000)","participant 1":"PLTP999","experiment":"prelim"},"time":1552596931445.77}
+{"type":"text display cleared","data":{"participant 1":"PLTP999","experiment":"prelim"},"time":1552596936462.42}
+{"type":"restore original text color","data":{"participant 1":"PLTP999","experiment":"prelim"},"time":1552596936462.42}
+{"type":"microphone test confirmation","data":{"displayed text":"Did you hear the recording? 
+(Y=Continue / N=Try Again / C=Cancel).","participant 1":"PLTP999","experiment":"prelim"},"time":1552596936462.42}
+{"type":"text display cleared","data":{"participant 1":"PLTP999","experiment":"prelim"},"time":1552596937629.01}
+{"type":"microphone test end","data":{"participant 1":"PLTP999","experiment":"prelim"},"time":1552596937629.01}
+{"type":"press any key prompt","data":{"displayed text":"
+
+
+We will now review the basics of the study, and the experimenter will answer any questions that you have.
+(Instruction place holder)
+1) You will see lists of words.
+2) Words will come onscreen one at a time.
+3) When a row of asterists appera on the screen, please start recall the words.
+
+
+","participant 1":"PLTP999","experiment":"prelim"},"time":1552596937645.14}
